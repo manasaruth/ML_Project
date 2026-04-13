@@ -1,5 +1,16 @@
 Predictive Maintenance and Anomaly Detection in Smart Manufacturing
 
+ 📸 Screenshots
+
+ Dashboard Overview
+![Dashboard](images/dashboard.png)
+
+ AI Maintenance Agent
+![Agent](images/agent.png)
+
+Risk Distribution
+![Risk](images/risk.png)
+
 📌 Overview
 
 This project focuses on building an intelligent predictive maintenance system for smart manufacturing environments. Using machine learning techniques, the system detects anomalies in machine behavior and predicts potential failures before they occur.
