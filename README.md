@@ -2,13 +2,13 @@ Predictive Maintenance and Anomaly Detection in Smart Manufacturing
 
  📸 Screenshots
 
- Dashboard Overview
+ ## Dashboard Overview
 ![Dashboard](dashboard.png)
 
- AI Maintenance Agent
+ ## AI Maintenance Agent
 ![Agent](agent.png)
 
-Risk Distribution
+## Risk Distribution
 ![Risk](risk.png)
 
 📌 Overview
