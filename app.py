@@ -111,3 +111,37 @@ else:
 
 st.metric("Average Early Warning Hours", round(kpi_df['Early_Warning_Hours'].mean(), 2))
 st.metric("Total Avoided Downtime (Hours)", kpi_df['Avoided_Downtime_Hours'].sum())
+
+# ----------------------------
+# 🤖 AI Maintenance Agent
+# ----------------------------
+
+st.sidebar.markdown("---")
+st.sidebar.subheader("🤖 AI Maintenance Agent")
+
+# Safe risk handling
+selected_risk_level = "Low"
+if not filtered_df.empty:
+    selected_risk_level = filtered_df['Risk_Level'].iloc[-1]
+
+if st.sidebar.button("🔍 Generate Action Plan"):
+
+    st.write("✅ Button clicked")  # Debug
+
+    st.subheader(f"🛠️ AI Maintenance Plan for {machine_id}")
+    st.write(f"Machine ID: {machine_id}")
+    st.info(f"Detected Risk Level: {selected_risk_level}")
+
+    with st.spinner("Analyzing machine condition..."):
+
+        if selected_risk_level == "High":
+            st.error("🚨 High Risk Detected!")
+            st.write("Reduce load, inspect bearings, alert team")
+
+        elif selected_risk_level == "Medium":
+            st.warning("⚠️ Medium Risk Detected")
+            st.write("Monitor closely, schedule maintenance")
+
+        else:
+            st.success("✅ Low Risk")
+            st.write("Continue normal operation")
