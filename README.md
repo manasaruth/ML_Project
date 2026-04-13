@@ -39,7 +39,17 @@ This project focuses on building an intelligent predictive maintenance system fo
 - Network Latency, Packet Loss
 - Machine ID, Operation Mode
 
+ 🤖 AI Maintenance Agent (New Feature)
 
+An intelligent decision-support module that generates real-time maintenance recommendations based on machine risk levels.
+
+ 🔧 Capabilities
+- Detects current machine risk (Low / Medium / High)
+- Suggests actionable maintenance steps
+- Helps engineers take quick decisions
+- Simulates real-world industrial AI assistant
+
+This transforms the system from a monitoring dashboard to an intelligent maintenance assistant.
 
 🌐 Live Application
 
@@ -70,6 +80,7 @@ https://mlproject-ulwys6hxkhokmp54rsdnbu.streamlit.app/
 🚀 Future Improvements
 
 - Integration with real-time IoT sensors
+- Integration of Agentic AI for autonomous maintenance workflows
 - Use of deep learning models (Autoencoders)
 - Advanced KPI calculations
 - Automated maintenance recommendations
