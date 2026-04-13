@@ -1,6 +1,6 @@
 ### Predictive Maintenance and Anomaly Detection in Smart Manufacturing
 
- ##📸 Screenshots
+ ## Screenshots
 
 ### Dashboard Overview
 ![Dashboard](dashboard.png)
