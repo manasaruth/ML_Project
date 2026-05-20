@@ -73,9 +73,10 @@ https://mlproject-ulwys6hxkhokmp54rsdnbu.streamlit.app/
 
 - Python
 - Pandas
-- Scikit-learn
 - Matplotlib
 - Streamlit
+- Data analytics
+- Dashboard visualization
 
 
 
